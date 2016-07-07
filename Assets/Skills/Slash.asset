@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8f2a37101e71743932cb433e3af153, type: 3}
+  m_Name: Slash
+  m_EditorClassIdentifier: 
+  skillName: slash
+  canCharge: 1
+  value: 25
+  icon: {fileID: 0}
+  ammo: 0
+  playOnUse: {fileID: 8300000, guid: 858ab94a2d04596429ab1ea681750dc4, type: 3}
+  useDelay: .100000001
+  chargeAnimation: Charge
+  useAnimation: Slash
+  aiTargetType: 3
+  effect: {fileID: 0}
+  minDamage: 10
+  baseRange: 2
+  maxCharge: 2
+  chargeStep: .300000012

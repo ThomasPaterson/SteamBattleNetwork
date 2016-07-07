@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d5f2243bcd9c4e8af06e9e3ecc080, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  skillName: Shield
+  fireType: 1
+  canCharge: 1
+  value: 2
+  icon: {fileID: 0}
+  ammo: 0
+  playOnUse: {fileID: 8300000, guid: f41bde97f5c97b14998fbc284f8695af, type: 3}
+  useDelay: 0
+  chargeAnimation: 
+  useAnimation: 
+  shieldObject: {fileID: 101616, guid: fac563a377b85cb4c85dbaddf5407a91, type: 2}
+  maxHealth: 10
+  minSizePercent: .400000006
+  degradeRate: .200000003
+  rechargeRate: 1.5
+  shieldHit: {fileID: 8300000, guid: c51baae924d950b44adf4f394a55406e, type: 3}
+  shieldBreak: {fileID: 8300000, guid: 6c2bfc4a5cbd1c24abf93ae6099bcfe0, type: 3}
